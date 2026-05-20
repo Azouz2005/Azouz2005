@@ -86,28 +86,6 @@ print(me.say_hi())
 
 ---
 
-## 🚀 Featured AI Projects
-
-> 🔧 *Projects showcasing real-world AI applications*
-
-### 🏆 Project 1 — [ Project Name ]
-> **Type:** Computer Vision / Deep Learning  
-> **Tech:** Python · TensorFlow · OpenCV  
-> **Description:** Brief description of what the project does and its impact.
-
----
-
-### 🏆 Project 2 — [ Project Name ]
-> **Type:** Machine Learning / Pattern Recognition  
-> **Tech:** Python · scikit-learn · Pandas  
-> **Description:** Brief description of what the project does and its impact.
-
----
-
-### 🏆 Project 3 — [ Project Name ]
-> **Type:** Robotics · Arduino  
-> **Tech:** C++ · Arduino · Sensors  
-> **Description:** Brief description of what the project does and its impact.
 
 ---
 
