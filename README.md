@@ -19,32 +19,28 @@
 
 ## 🧠 About Me
 
-```python
-class AIEngineer:
-    def __init__(self):
-        self.name        = "Mohamed Azouz Abdelmaged Ali"
-        self.location    = "Assiut, Egypt 🇪🇬"
-        self.focus       = "Artificial Intelligence & Robotics"
-        self.passion     = "Building machines that think, see & move"
+from life import Engineer
 
-    @property
-    def specializations(self):
-        return [
-            "🤖 Machine Learning & Deep Learning",
-            "👁️  Computer Vision",
-            "🔍 Pattern Recognition",
-            "🦾 Robotics (Arduino)",
-            "🧬 AI Project Development"
+class MohamedAzouz(Engineer):
+    def __init__(self):
+        super().__init__()
+
+        self.role = "AI Engineer"
+        self.learning = [
+            "Deep Learning",
+            "Computer Vision",
+            "Machine Learning"
+            "Robotics",
+            "pattern Recogntion"
         ]
 
-    def current_goal(self):
-        return "Pushing the boundaries of intelligent systems"
+        self.current_focus = "Building impactful AI projects"
 
-me = AIEngineer()
-print(me.current_goal())
-# → "Pushing the boundaries of intelligent systems"
-```
+    def say_hi(self):
+        return "Turning ideas into intelligent systems 🚀"
 
+me = MohamedAzouz()
+print(me.say_hi())
 ---
 
 ## 🛠️ Tech Stack
